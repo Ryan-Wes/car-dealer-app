@@ -45,4 +45,4 @@ The application is structured as follows:
 2. **Vercel:**
 
    ```bash
-   [cd car-dealer-app](https://car-dealer-c1h2phegn-wryans-projects.vercel.app/)
+   https://car-dealer-c1h2phegn-wryans-projects.vercel.app/
