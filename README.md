@@ -1,6 +1,6 @@
 # Car Dealer App
 
-![Imagem 1](./public/1.jpg)
+![Imagem 1](./public/1.png)
 ![Imagem 2](./public/2.jpg)
 ![Imagem 3](./public/3.jpg)
 ![Imagem 4](./public/4.jpg)
