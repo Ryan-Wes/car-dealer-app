@@ -12,35 +12,33 @@
   <img src="./public/mobile1.png" alt="Image 8" width="200" />
 </p>
 
-## Overview
+## Visão Geral
 
-The **Car Dealer App** is a Next.js application that allows users to filter vehicles by brand and manufacturing year. The application uses the National Highway Traffic Safety Administration (NHTSA) API to fetch information about vehicle makes and models.
+O **Car Dealer App** é uma aplicação desenvolvida em Next.js que permite aos usuários filtrar veículos por marca e ano de fabricação. A aplicação utiliza a API do National Highway Traffic Safety Administration (NHTSA) para buscar informações sobre marcas e modelos de veículos.
 
-## Features
+## Funcionalidades
 
-- Display of a list of vehicle brands.
-- Vehicle filtering by brand and year.
-- Dynamic data loading using the API.
-- Responsive and modern design using Tailwind CSS.
+- Exibição de uma lista de marcas de veículos.
+- Filtragem de veículos por marca e ano.
+- Carregamento dinâmico de dados utilizando a API.
+- Design responsivo e moderno utilizando Tailwind CSS.
 
-## Architecture
+## Arquitetura
 
-The application is structured as follows:
+A aplicação é estruturada da seguinte forma:
 
-- **Pages**: Utilizes Next.js page structure with dynamic routes to display search results.
-- **Components**: Reusable components for displaying vehicle lists and forms.
-- **Styling**: Uses Tailwind CSS for a clean and responsive design.
-- **Data**: Connects to an external API to fetch data on vehicle makes and models.
+- **Páginas**: Utiliza a estrutura de páginas do Next.js, com rotas dinâmicas para exibir os resultados da pesquisa.
+- **Componentes**: Componentes reutilizáveis para exibição de listas de veículos e formulários.
+- **Estilização**: Utiliza Tailwind CSS para um design clean e responsivo.
+- **Dados**: A aplicação se conecta a uma API externa para buscar dados sobre marcas e modelos de veículos.
 
-## Instructions to Run the Application
+## Instruções para Executar o Aplicativo
 
-1. **Clone the Repository:**
+1. **Clone o Repositório:**
 
    ```bash
    git clone https://github.com/seuusuario/car-dealer-app.git
    cd car-dealer-app
-
-## Instructions to Run the Application
 
 2. **Vercel:**
 
