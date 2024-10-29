@@ -6,8 +6,11 @@
 ![Imagem 4](./public/4.png)
 ![Imagem 5](./public/5.png)
 ![Imagem 6](./public/6.png)
-<img src="./public/mobile1.png" alt="Imagem 7" width="300" />
-<img src="./public/mobile2.png" alt="Imagem 8" width="300" />
+
+<p align="center">
+  <img src="./public/mobile1.png" alt="Imagem 7" width="300" style="margin-right: 20px;" />
+  <img src="./public/mobile2.png" alt="Imagem 8" width="300" />
+</p>
 
 ## Visão Geral
 
