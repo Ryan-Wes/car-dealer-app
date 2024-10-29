@@ -12,62 +12,66 @@
   <img src="./public/mobile1.png" alt="Image 8" width="200" />
 </p>
 
-## Visão Geral
+## Overview
 
-O **Car Dealer App** é uma aplicação desenvolvida em Next.js que permite aos usuários filtrar veículos por marca e ano de fabricação. A aplicação utiliza a API do National Highway Traffic Safety Administration (NHTSA) para buscar informações sobre marcas e modelos de veículos.
+The **Car Dealer App** is an application developed in Next.js that allows users to filter vehicles by make and year of manufacture. The application uses the National Highway Traffic Safety Administration (NHTSA) API to fetch information about vehicle makes and models.
 
-## Funcionalidades
+## Features
 
-- Exibição de uma lista de marcas de veículos.
-- Filtragem de veículos por marca e ano.
-- Carregamento dinâmico de dados utilizando a API.
-- Design responsivo e moderno utilizando Tailwind CSS.
+- Display a list of vehicle makes.
+- Filter vehicles by make and year.
+- Dynamic data loading using the API.
+- Responsive and modern design using Tailwind CSS.
 
-## Arquitetura
+## Architecture
 
-A aplicação é estruturada da seguinte forma:
+The application is structured as follows:
 
-- **Páginas**: Utiliza a estrutura de páginas do Next.js, com rotas dinâmicas para exibir os resultados da pesquisa.
-- **Componentes**: Componentes reutilizáveis para exibição de listas de veículos e formulários.
-- **Estilização**: Utiliza Tailwind CSS para um design clean e responsivo.
-- **Dados**: A aplicação se conecta a uma API externa para buscar dados sobre marcas e modelos de veículos.
+- **Pages**: Utilizes the Next.js page structure with dynamic routes to display search results.
+- **Components**: Reusable components for displaying vehicle lists and forms.
+- **Styling**: Utilizes Tailwind CSS for a clean and responsive design.
+- **Data**: The application connects to an external API to fetch data about vehicle makes and models.
 
-## Maiores Desafios e Soluções
+## Major Challenges and Solutions
 
-Durante o desenvolvimento do **Car Dealer App**, enfrentei alguns desafios, incluindo:
+During the development of the **Car Dealer App**, I faced several challenges, including:
 
-### Integração com a API
+### API Integration
 
-**Desafio:** A conexão e o manuseio de dados da API da NHTSA apresentaram algumas dificuldades, especialmente em relação ao tratamento de erros e à formatação dos dados recebidos.  
-**Solução:** Utilize `try/catch` para capturar erros durante a chamada à API e implementei um estado de carregamento para melhorar a experiência do usuário. Também formatei os dados assim que os recebi, garantindo que o aplicativo fosse robusto.
+**Challenge:** Connecting to and handling data from the NHTSA API presented some difficulties, especially regarding error handling and formatting the received data.  
+**Solution:** I used `try/catch` to catch errors during the API call and implemented a loading state to improve the user experience. I also formatted the data as soon as I received it, ensuring that the application was robust.
 
-### Implementação do Tailwind CSS
+### Tailwind CSS Implementation
 
-**Desafio:** Aprender a usar o Tailwind CSS para estilizar a aplicação de forma eficiente e responsiva foi um desafio, já que nunca tinha tido contato com essa ferramenta. O estilo não ficou tão bom quanto eu esperava, mas gostei de aprender algo novo e prometo que, com mais tempo, ficarei mais proficiente nessa ferramenta.  
-**Solução:** Estudei a documentação oficial do Tailwind CSS e utilizei componentes pré-estilizados como referência, além de experimentar diferentes utilitários para compreender melhor como funcionam.
+**Challenge:** Learning to use Tailwind CSS to style the application efficiently and responsively was a challenge, as I had never encountered this tool before. The styling did not turn out as well as I expected, but I enjoyed learning something new and promise that with more time, I will become more proficient with this tool.  
+**Solution:** I studied the official Tailwind CSS documentation and used pre-styled components as references, in addition to experimenting with different utilities to better understand how they work.
 
-### Configuração do Ambiente de Desenvolvimento
+### Development Environment Setup
 
-**Desafio:** A configuração das variáveis de ambiente no Vercel e a transição do `.env.local` para variáveis de ambiente compartilhadas.  
-**Solução:** Criei variáveis de ambiente diretamente no painel do Vercel, garantindo que fossem utilizadas durante a construção e a execução da aplicação.
+**Challenge:** Setting up environment variables in Vercel and transitioning from `.env.local` to shared environment variables.  
+**Solution:** I created environment variables directly in the Vercel dashboard, ensuring they were used during the build and runtime of the application.
 
-### Desafios de Hidratação do React
+### React Hydration Challenges
 
-**Desafio:** Tive problemas com erros de hidratação do React, o que exigiu uma investigação cuidadosa.  
-**Solução:** Verifiquei a consistência entre a renderização do lado do servidor e do lado do cliente, evitando o uso de variáveis dinâmicas que poderiam causar discrepâncias.
+**Challenge:** I encountered problems with React hydration errors, which required careful investigation.  
+**Solution:** I checked the consistency between server-side rendering and client-side rendering, avoiding the use of dynamic variables that could cause discrepancies.
 
-### Estilização de Componentes
+### Component Styling
 
-**Desafio:** Manter uma consistência visual e uma boa experiência do usuário em diferentes tamanhos de tela.  
-**Solução:** Utilizei classes responsivas do Tailwind CSS e testei a aplicação em diferentes dispositivos e tamanhos de tela, ajustando os estilos conforme necessário para garantir uma experiência de usuário fluida.
+**Challenge:** Maintaining visual consistency and a good user experience across different screen sizes.  
+**Solution:** I used responsive classes from Tailwind CSS and tested the application on different devices and screen sizes, adjusting the styles as necessary to ensure a smooth user experience.
 
+### Integration with ESLint and Prettier
 
-## Instruções para Executar o Aplicativo
+**Challenge:** I did not implement ESLint and Prettier because I had never used these tools, and as a result, they started breaking my code.  
+**Solution:** I will strive to learn both tools as quickly as possible to use them effectively.
 
-1. **Clone o Repositório:**
+## Instructions to Run the Application
+
+1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/seuusuario/car-dealer-app.git
+   git clone https://github.com/yourusername/car-dealer-app.git
    cd car-dealer-app
 
 2. **Vercel:**
