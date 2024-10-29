@@ -1,13 +1,13 @@
 # Car Dealer App
 
-![Imagem 1](./public/1.png)
-![Imagem 2](./public/2.png)
-![Imagem 3](./public/3.png)
-![Imagem 4](./public/4.png)
-![Imagem 5](./public/5.png)
-![Imagem 6](./public/6.png)
-![Imagem 7](./public/mobile1.png)
-![Imagem 8](./public/mobile2.png)
+<img src="./public/1.png" alt="Imagem 1" width="200" />
+<img src="./public/2.png" alt="Imagem 2" width="200" />
+<img src="./public/3.png" alt="Imagem 3" width="200" />
+<img src="./public/4.png" alt="Imagem 4" width="200" />
+<img src="./public/5.png" alt="Imagem 5" width="200" />
+<img src="./public/6.png" alt="Imagem 6" width="200" />
+<img src="./public/mobile1.png" alt="Imagem 7" width="200" />
+<img src="./public/mobile2.png" alt="Imagem 8" width="200" />
 
 ## Visão Geral
 
