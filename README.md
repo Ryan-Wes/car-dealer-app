@@ -8,8 +8,8 @@
 ![Imagem 6](./public/6.png)
 
 <p align="center">
-  <img src="./public/mobile1.png" alt="Imagem 7" width="200" style="margin-right: 20px;" />
-  <img src="./public/mobile2.png" alt="Imagem 8" width="200" />
+  <img src="./public/mobile2.png" alt="Imagem 7" width="200" style="padding-right: 20px;" />
+  <img src="./public/mobile1.png" alt="Imagem 8" width="200" />
 </p>
 
 ## Visão Geral
