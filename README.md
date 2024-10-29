@@ -32,31 +32,31 @@ A aplicação é estruturada da seguinte forma:
 - **Estilização**: Utiliza Tailwind CSS para um design clean e responsivo.
 - **Dados**: A aplicação se conecta a uma API externa para buscar dados sobre marcas e modelos de veículos.
 
-# Maiores Desafios e Soluções
+## Maiores Desafios e Soluções
 
 Durante o desenvolvimento do **Car Dealer App**, enfrentei alguns desafios, incluindo:
 
-## Integração com a API
+### Integração com a API
 
 **Desafio:** A conexão e o manuseio de dados da API da NHTSA apresentaram algumas dificuldades, especialmente em relação ao tratamento de erros e à formatação dos dados recebidos.  
 **Solução:** Utilize `try/catch` para capturar erros durante a chamada à API e implementei um estado de carregamento para melhorar a experiência do usuário. Também formatei os dados assim que os recebi, garantindo que o aplicativo fosse robusto.
 
-## Implementação do Tailwind CSS
+### Implementação do Tailwind CSS
 
 **Desafio:** Aprender a usar o Tailwind CSS para estilizar a aplicação de forma eficiente e responsiva foi um desafio, já que nunca tinha tido contato com essa ferramenta. O estilo não ficou tão bom quanto eu esperava, mas gostei de aprender algo novo e prometo que, com mais tempo, ficarei mais proficiente nessa ferramenta.  
 **Solução:** Estudei a documentação oficial do Tailwind CSS e utilizei componentes pré-estilizados como referência, além de experimentar diferentes utilitários para compreender melhor como funcionam.
 
-## Configuração do Ambiente de Desenvolvimento
+### Configuração do Ambiente de Desenvolvimento
 
 **Desafio:** A configuração das variáveis de ambiente no Vercel e a transição do `.env.local` para variáveis de ambiente compartilhadas.  
 **Solução:** Criei variáveis de ambiente diretamente no painel do Vercel, garantindo que fossem utilizadas durante a construção e a execução da aplicação.
 
-## Desafios de Hidratação do React
+### Desafios de Hidratação do React
 
 **Desafio:** Tive problemas com erros de hidratação do React, o que exigiu uma investigação cuidadosa.  
 **Solução:** Verifiquei a consistência entre a renderização do lado do servidor e do lado do cliente, evitando o uso de variáveis dinâmicas que poderiam causar discrepâncias.
 
-## Estilização de Componentes
+### Estilização de Componentes
 
 **Desafio:** Manter uma consistência visual e uma boa experiência do usuário em diferentes tamanhos de tela.  
 **Solução:** Utilizei classes responsivas do Tailwind CSS e testei a aplicação em diferentes dispositivos e tamanhos de tela, ajustando os estilos conforme necessário para garantir uma experiência de usuário fluida.
